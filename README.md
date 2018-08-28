@@ -1,4 +1,7 @@
 # Verilog_Design_Files
-Digital Design Files coded in Verilog
 
-1 D Flip Flop Synchronous type with testbench.
+## Digital Design Files.
+
+This project contains some digital design files with their testbenches coded in Verilog.
+
+- D-Flip Flop Synchronous type with testbench.
