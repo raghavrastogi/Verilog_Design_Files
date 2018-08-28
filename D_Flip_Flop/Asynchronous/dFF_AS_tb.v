@@ -1,13 +1,13 @@
-module dFF_tb;
+module dFF_AS_tb;
   
 	reg data, clk, rst;
 	wire Q, QB;
   
-	dFF DUT (	.Q(Q),
-				.QB(QB),
-				.data(data),
-				.clk(clk),
-				.rst(rst)	);
+	dFF_AS DUT (	.Q(Q),
+					.QB(QB),
+					.data(data),
+					.clk(clk),
+					.rst(rst)	);
   
 	initial begin
 		clk = 0;
