@@ -11,12 +11,12 @@
 //------------------------------------------------
 //  Design Architecture = Behavioural Architecture
 //------------------------------------------------
-//  Module Name   : dFF;
+//  Module Name   : dFF_AS;
 //  Designer      : Raghav Rastogi;
 //  Creation Date : 28, August, 2018;
 //------------------------------------------------
 
-module dFF (Q, QB, data, clk, rst);
+module dFF_AS (Q, QB, data, clk, rst);
   
 	output Q, QB;
 	input data, clk, rst;
