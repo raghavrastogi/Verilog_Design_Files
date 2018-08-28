@@ -19,17 +19,17 @@
 
 module dFF (Q, QB, data, clk, rst);
   
-  output Q, QB;
-  input data, clk, rst;
-  reg Q;
+    output Q, QB;
+    input data, clk, rst;
+    reg Q;
   
-  assign QB = ~Q;
+    assign QB = ~Q;
   
-  always @(posedge clk)
-  begin
-    if(rst)
-      Q <= 1'b0;
-    else
-      Q <= data;
-  end
+    always @(posedge clk)
+    begin
+        if(rst)
+            Q <= 1'b0;
+        else
+            Q <= data;
+    end
 endmodule
